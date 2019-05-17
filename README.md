@@ -37,11 +37,8 @@ Lauch .bat script in project's folder.
 
 The next Windows will apear :
 
-<center>
-
 ![gui_kivy](./docs/img/gui_kivy.jpg)
 
-</center>
 
 Don't forget  refresh button before pressing "GO" button.
 
