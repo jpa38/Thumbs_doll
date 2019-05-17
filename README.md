@@ -2,14 +2,11 @@
 
 # <center>Thumbs Doll
 
+<center>
 
-!["icon"](".thumbs_doll\img\icon.png")
-
-
+!["icon"](./thumbs_doll/img/icon.png)
 
 </center>
-
-
 
 ---
 
@@ -23,7 +20,7 @@ Generate Thumbs from predefine pixels size :
 - 256x256
 - 512x512
 
-I create this programm to learn python functiunalities (GUI, standalone apps...).
+I create this program to learn python functiunalities (GUI, standalone apps...).
 I am working with windows's pycharm app.
 
 ## Installation
@@ -40,9 +37,11 @@ Lauch .bat script in project's folder.
 
 The next Windows will apear :
 
-!["gui_kivy"](".docs\img\gui_kivy.jpg")
+<center>
 
+![gui_kivy](./docs/img/gui_kivy.jpg)
 
+</center>
 
 Don't forget  refresh button before pressing "GO" button.
 
@@ -88,10 +87,10 @@ We use [SemVer](http://semver.org/) for versioning :
 
 ## License
 
-Todo mit
+This project is licensed under the **MIT License**
 
 ## TODO
 - [ ] Create an standalone application
-- [ ] Add predefine destinations path (ini file).
-- [ ] Add predefine size choice
+- [ ] Add predefine destinations path (with ini file)
+- [ ] Add predefine size choice (with ini file)
 - [ ] Add custom size
