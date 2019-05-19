@@ -124,6 +124,7 @@ class ImageDollScreen(BoxLayout):
             shutil.copyfile(self.input_path_url.text, 'preview.jpg')
             shutil.copyfile(self.input_path_url.text,
                                   os.path.join(script.get_path_input(), script.get_full_image_name(self.input_path_url.text)))
+            self.image_size = script.get_image_size('preview.jpg')
             self.img.reload()
 
         else:
@@ -390,6 +391,9 @@ class MyApp(App):
 
     def build(self):
         return ImageDollScreen()
+
+    def on_stop(self):
+        script.conditions_initiales()
 
 
 if __name__ == '__main__':
